@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Quicksand:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    background: linear-gradient(#232529, #191a1d);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Belanosima', sans-serif;
+    text-transform: uppercase;
+    cursor: default;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li {
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+}
+
+nav li a:hover {
+    color: #eeeeee;
+}
+
+nav li a,
+.contact a {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact a {
+    background-color: #0099ff;
+    padding: 10px 20px 10px;
+    border-radius: 20px;
+}
+
+.contact a:hover {
+    background-color: rgb(1, 106, 175);
+}
