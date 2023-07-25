@@ -1,0 +1,65 @@
+@keyframes borda {
+    0% {border: 1px solid purple;}
+    25% {border: 1px solid #0099ff;}
+    50% {border: 1px solid #2EDCD2;}
+    75% {border: 1px solid #0099ff;}
+    100% {border: 1px solid purple;}
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(-100deg, #232529, #161616);
+    height: 750px;
+    align-items: center;
+}
+
+.main_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+}
+
+.main_content h1 {
+    color: #0099ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_content h1,
+.main_content p {
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+}
+
+.icon_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border: 1px solid purple;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.icon_button:hover {
+    animation-name: borda;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: .3s;
+    background-color: rgba(255, 255, 255, 0.151);
+}
+
+.icon_button img {
+    height: 20px;
+    width: 20px;
+}

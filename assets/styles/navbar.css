@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
 }
 
 body {
@@ -12,7 +13,7 @@ header {
     display: flex;
     height: 100px;
     justify-content: center;
-    background: linear-gradient(#232529, #191a1d);
+    background-color: #232529;
 }
 
 .container {
@@ -24,11 +25,14 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    color: white;
+    color: #ffffff;
     font-size: 30px;
-    font-family: 'Belanosima', sans-serif;
-    text-transform: uppercase;
     cursor: default;
+}
+
+.logo p {
+    padding: 2px 5px;
+    border-radius: 10px;
 }
 
 nav {
@@ -72,5 +76,6 @@ nav li a,
 }
 
 .contact a:hover {
+    transition: .3s;
     background-color: rgb(1, 106, 175);
 }
