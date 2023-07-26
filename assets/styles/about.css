@@ -1,0 +1,71 @@
+section {
+    display: flex;
+    justify-content: center;
+    background-color: #191a1b;
+    height: 500px;
+}
+
+.about {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#my_photo {
+    margin-right: 90px;
+    animation-name: borda;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    max-height: 350px;
+}
+
+.about_text {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    text-align: justify;
+}
+
+.about_text p {
+    font-size: 25px;
+}
+
+.about_text h2 {
+    margin-bottom: 10px;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.download a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.download img {
+    width: 25px;
+}
+
+.download {
+    display: flex;
+    width: 130px;
+    height: 50px;
+    gap: 7px;
+    padding-right: 5px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid purple;
+    border-radius: 10px;
+}
+
+.download:hover {
+    cursor: pointer;
+    animation-name: borda;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: .3s;
+    background-color: rgba(255, 255, 255, 0.151);
+}

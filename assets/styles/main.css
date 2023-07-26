@@ -37,7 +37,7 @@ main {
 .icons {
     display: flex;
     justify-content: space-between;
-    width: 90px;
+    width: 190px;
 }
 
 .icon_button {
