@@ -1,4 +1,4 @@
-section {
+#about_me {
     display: flex;
     justify-content: center;
     background-color: #191a1b;
@@ -32,6 +32,7 @@ section {
 }
 
 .about_text h2 {
+    margin: 0;
     margin-bottom: 10px;
     font-size: 35px;
     text-transform: uppercase;
@@ -53,7 +54,6 @@ section {
     width: 130px;
     height: 50px;
     gap: 7px;
-    padding-right: 5px;
     align-items: center;
     justify-content: center;
     color: white;
@@ -68,4 +68,5 @@ section {
     animation-iteration-count: infinite;
     transition: .3s;
     background-color: rgba(255, 255, 255, 0.151);
+    box-shadow: 0 0 10px;
 }
