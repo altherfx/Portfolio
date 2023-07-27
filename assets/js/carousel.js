@@ -18,4 +18,4 @@ function carrossel() {
     }, 500);
 }
 
-setInterval(carrossel, 1800);
+setInterval(carrossel, 1000);
