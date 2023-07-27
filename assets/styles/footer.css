@@ -1,7 +1,7 @@
 footer {
     display: flex;
     justify-content: center;
-    height: 100px;
+    min-height: 100px;
     background-color: #161616;
 }
 
@@ -24,4 +24,15 @@ footer {
 
 .footer_contact a:hover {
     border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 680px) {
+    .footer_area {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 425px) {
+    .footer_contact {
+      flex-direction: column; 
+    }
 }

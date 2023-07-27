@@ -1,7 +1,7 @@
 #technologies {
     display: flex;
     justify-content: center;
-    height: 340px;
+    min-height: 340px;
     background-color: #161616;
 }
 
@@ -39,4 +39,26 @@
     object-fit: cover;
     height: 100px;
     width: 100px;
+}
+
+@media screen and (max-width: 680px) {
+    .carrossel {
+        width: 400px;
+    }
+
+    .skills {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .carrossel {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .carrossel {
+        width: 200px;
+    }
 }

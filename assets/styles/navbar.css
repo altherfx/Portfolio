@@ -84,3 +84,15 @@ nav li a,
     transition: .3s;
     background-color: rgb(1, 106, 175);
 }
+
+@media screen and (max-width: 680px) {
+    .contact {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    nav {
+        display: none;
+    }
+}
