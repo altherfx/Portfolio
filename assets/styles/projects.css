@@ -41,5 +41,6 @@
 }
 
 .ht-scroll-image img {
+    cursor: pointer;
     height: 380px;
 }
