@@ -1,9 +1,23 @@
 @keyframes borda {
-    0% {border: 1px solid purple;}
-    25% {border: 1px solid #0099ff;}
-    50% {border: 1px solid #2EDCD2;}
-    75% {border: 1px solid #0099ff;}
-    100% {border: 1px solid purple;}
+    0% {
+        border: 1px solid purple;
+    }
+
+    25% {
+        border: 1px solid #0099ff;
+    }
+
+    50% {
+        border: 1px solid #2EDCD2;
+    }
+
+    75% {
+        border: 1px solid #0099ff;
+    }
+
+    100% {
+        border: 1px solid purple;
+    }
 }
 
 main {
@@ -12,6 +26,20 @@ main {
     background: linear-gradient(-100deg, #232529, #161616);
     height: 940px;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+.banner img {
+    max-width: 100%;
+    max-height: 600px;
 }
 
 .main_content {
@@ -20,6 +48,7 @@ main {
     flex-direction: column;
     color: white;
     font-size: 30px;
+    flex-basis: 50%;
 }
 
 .main_content h1 {
@@ -62,4 +91,15 @@ main {
 .icon_button img {
     height: 20px;
     width: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .banner,
+    .main_content {
+        flex-basis: 100%; 
+    }
+
+    .banner {
+        display: none;
+    }
 }
