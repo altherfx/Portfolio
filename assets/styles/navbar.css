@@ -18,6 +18,7 @@ header {
     height: 100px;
     justify-content: center;
     background-color: #232529;
+    z-index: 9999;
 }
 
 .container {
@@ -56,7 +57,7 @@ nav li {
 }
 
 nav li a:hover {
-    color: #eeeeee;
+    color: #0099ff;
 }
 
 nav li a,

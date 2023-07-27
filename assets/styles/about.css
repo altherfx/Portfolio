@@ -14,6 +14,7 @@
 
 #my_photo {
     margin-right: 90px;
+    border-radius: 300px;
     animation-name: borda;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -68,5 +69,5 @@
     animation-iteration-count: infinite;
     transition: .3s;
     background-color: rgba(255, 255, 255, 0.151);
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 10px white;
 }
