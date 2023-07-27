@@ -94,9 +94,10 @@ main {
 }
 
 @media screen and (max-width: 768px) {
+
     .banner,
     .main_content {
-        flex-basis: 100%; 
+        flex-basis: 100%;
     }
 
     .banner {
@@ -112,6 +113,10 @@ main {
 
     .icons {
         min-width: 250px;
+    }
+
+    main {
+        height: 700px;
     }
 }
 
