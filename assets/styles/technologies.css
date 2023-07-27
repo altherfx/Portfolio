@@ -51,13 +51,13 @@
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 520px) {
     .carrossel {
         width: 300px;
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 430px) {
     .carrossel {
         width: 200px;
     }
