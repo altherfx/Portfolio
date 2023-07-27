@@ -16,3 +16,12 @@ footer {
 .footer_contact p {
     margin: 5px;
 }
+
+.footer_contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer_contact a:hover {
+    border-bottom: 1px solid white;
+}
