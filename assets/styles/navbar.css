@@ -19,12 +19,14 @@ header {
     justify-content: center;
     background-color: #232529;
     z-index: 999;
+    padding: 0 20px;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
-    width: 70vw;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .logo {
@@ -33,11 +35,6 @@ header {
     color: #ffffff;
     font-size: 30px;
     cursor: default;
-}
-
-.logo p {
-    padding: 2px 5px;
-    border-radius: 10px;
 }
 
 nav {
@@ -85,13 +82,7 @@ nav li a,
     background-color: rgb(1, 106, 175);
 }
 
-@media screen and (max-width: 680px) {
-    .contact {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 650px) {
     nav {
         display: none;
     }

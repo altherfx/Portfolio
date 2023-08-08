@@ -17,6 +17,18 @@ footer {
     margin: 5px;
 }
 
+.copy {
+    padding: 10px;
+}
+
+.copy p{
+    margin: 5px;
+}
+
+.footer_contact {
+    padding: 10px;
+}
+
 .footer_contact a {
     color: white;
     text-decoration: none;
